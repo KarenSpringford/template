@@ -7,18 +7,18 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace template1 {
+namespace template1.UserControls {
     
     
-    public partial class Default {
+    public partial class Jumbotron {
         
         /// <summary>
-        /// Jumbotron control.
+        /// jumbotronH1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::template1.UserControls.Jumbotron Jumbotron;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl jumbotronH1;
     }
 }
