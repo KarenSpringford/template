@@ -1,5 +1,5 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="template1.Site" %>
-
+<%@ Register Src="~/UserControls/Navbar.ascx" TagName="Navbar" TagPrefix="ks3" %>
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
@@ -20,6 +20,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <ks3:Navbar runat="server"></ks3:Navbar>
         <div>
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
